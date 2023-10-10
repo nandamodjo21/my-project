@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#601F7C</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+<!--    <color name="colorPrimary">#399DFF</color>-->
+<!--    <color name="colorPrimaryDark">#2F4F4F</color>-->
+    <color name="colorbackground">#FCFCFC</color>
+    <color name="colorlightgrayline">#EDEDED</color>
+    <color name="colorbrown">#A52A2A</color>
+    <color name="colorcadetblue">#5F9EAD</color>
+    <color name="colorchocolate">#D2691E </color>
+<!--    <color name="colorAccent">#FF4081</color>-->
+    <color name="colorlimegreen">#32CD32</color>
+    <color name="colordarkcoral">#FF7F50</color>
+    <color name="hijau1">#1C7056</color>
+    <color name="gray">#808080</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+    <color name="colorPrimary">#00a5ff</color>
+    <color name="colorPrimaryDark">#0947E8</color>
+    <color name="colorAccent">#00A5FF</color>
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+    <color name="cyan">#033D3D</color>
+</resources>

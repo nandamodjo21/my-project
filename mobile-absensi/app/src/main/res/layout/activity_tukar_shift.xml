@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/cyan"
+    android:orientation="vertical"
+    tools:context=".beranda.activity.TukarShift">
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_gravity="center">
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="PELAPORAN"
+      android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+      android:textColor="@color/white"
+      />
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_marginTop="50dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <EditText
+        android:id="@+id/keterangan"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:hint="keterangan"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:textSize="22dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:background="@drawable/from"
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SUBMIT"
+        android:textColor="@color/white"
+        android:id="@+id/btn_submit"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="BACK"
+        android:textColor="@color/white"
+        android:id="@+id/btn_co"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colordarkcoral"/>
+
+  </LinearLayout>
+<TextView
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+  android:text="NOTE:"/>
+  <TextView
+    android:textColor="@color/white"
+    android:layout_marginTop="10dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:text="Laporkan kepada kepala ruangan jika anda mengalami kendala untuk masuk shift"/>
+</LinearLayout>

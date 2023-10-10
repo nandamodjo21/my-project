@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bc"
+    tools:context=".beranda.activity.Home">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELAMAT DATANG DI ABSENSI PERAWAT"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            />
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:id="@+id/txt"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Status Absen : "
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:id="@+id/textStatuss"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="jam absen : "
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:id="@+id/teksjam"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_title"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SILAHKAN SCAN DISINI" />
+
+
+
+    <TextView
+
+        android:layout_below="@id/bt_scan"
+        android:id="@+id/tv_scanresult_title"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <TextView
+        android:layout_below="@id/tv_scanresult_title"
+        android:id="@+id/result"
+        android:textColor="@color/black"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="" />
+
+
+
+    <Button
+
+        android:layout_centerHorizontal="true"
+        android:text="SCAN QR CODE"
+        android:id="@+id/bt_scan"
+        android:textSize="20dp"
+        android:layout_below="@id/tv_title"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:textColor="@color/black"
+        android:background="@drawable/buttonstyle1"
+
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="GENERATE QR CODE"
+        android:textSize="20dp"
+        android:background="@drawable/buttonstyle1"
+        android:textColor="@color/black"
+        android:id="@+id/btn_code"
+        android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:layout_marginTop="10dp"
+
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:textColor="@color/black"
+            android:text="JADWAL"
+            android:id="@+id/btn_jadwal"
+            android:textSize="20dp"
+            android:background="@drawable/buttonstyle1"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="PELAPORAN"
+            android:textSize="20dp"
+            android:background="@drawable/buttonstyle1"
+            android:textColor="@color/black"
+            android:id="@+id/btn_ajuan"
+            android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_marginTop="10dp"
+
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:textColor="@color/black"
+        android:text="LOGOUT"
+        android:id="@+id/btn_logout"
+        android:textSize="20dp"
+        android:background="@drawable/buttonstyle1"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

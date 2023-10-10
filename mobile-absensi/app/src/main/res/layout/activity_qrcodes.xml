@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".beranda.activity.Qrcodes">
+
+    <ImageButton
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_close_24"
+        />
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/s__image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="40dp"
+            tools:ignore="ContentDescription" />
+        <Button
+            android:layout_marginTop="20dp"
+            android:text="@string/generate_qr_code"
+            android:id="@+id/btn_scann"
+            android:layout_width="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
